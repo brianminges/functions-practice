@@ -18,7 +18,7 @@ let movies = [
         genre: "comedy"
     }
 ]
-// console.log("Original array", movies)
+console.log("Original array", movies)
 
 // // Create a function to add a movie to the array
 
@@ -36,7 +36,7 @@ addMovie(
     }
 )
 
-// console.log("Adjusted array", movies)
+console.log("Adjusted array", movies)
 
 // ​// Create a function that loops through your movie array.  Add a conditional statement to differentiates one or more movies from the array.
 
@@ -53,7 +53,7 @@ const howLongIsThisMovie = () => {
     })
 }
 
-// howLongIsThisMovie()
+howLongIsThisMovie()
 
 // ​// Create a function that concatinates three stings and returns that value
 
@@ -64,7 +64,7 @@ const concatString = (string1, string2, string3) => {
 
 // ​// Invoke the function and console log the output
 const longString = concatString("apples", "dogs", "mice")
-// console.log(longString)
+console.log(longString)
 
 // ​// Create a function that console logs the multiplicative of 2 numbers
 const multiply = (num1, num2) => {
