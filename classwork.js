@@ -59,6 +59,7 @@ const howLongIsThisMovie = () => {
 
 const concatString = (string1, string2, string3) => {
     return string1 + string2 + string3
+
 }
 
 // ​// Invoke the function and console log the output
@@ -67,12 +68,11 @@ const longString = concatString("apples", "dogs", "mice")
 
 // ​// Create a function that console logs the multiplicative of 2 numbers
 const multiply = (num1, num2) => {
-    return num1 * num2
+    console.log(num1 * num2)
 }
 
 // ​// Invoke the function
-const answer = multiply(5, 6)
-// console.log(answer)
+multiply(5, 6)
 
 // ​// Bonus DataType Practice:
 // // create a ternary and console log it.
